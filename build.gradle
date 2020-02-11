@@ -37,5 +37,6 @@ dependencies {
     //별도의 설치 필요 없이 의존성만으로 관리할 수 있음
     //애플리케이션을 재시작할 때마다 초기화됨
     compile('com.h2database:h2')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

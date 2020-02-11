@@ -38,5 +38,6 @@ dependencies {
     //애플리케이션을 재시작할 때마다 초기화됨
     compile('com.h2database:h2')
     compile('org.springframework.boot:spring-boot-starter-mustache')
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
